@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    padding: 8px;
+}
+
+.floatBox
+{
+    margin: 15px 0 16px 16px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.clearBox
+{
+    clear: both;
+    background-color: bisque;
+}

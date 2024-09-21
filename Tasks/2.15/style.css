@@ -1,0 +1,25 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 8px;
+}
+
+.inlineBlock
+{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 16px;
+    background-color: aquamarine;
+}
+
+.clearBlock
+{
+    background-color:bisque;
+}

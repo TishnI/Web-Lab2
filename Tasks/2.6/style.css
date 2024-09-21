@@ -1,0 +1,24 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.firstSection
+{
+    padding: 20px 0;
+}
+
+.secondSection
+{
+    border: 10px solid blue;
+    padding: 50px;
+}

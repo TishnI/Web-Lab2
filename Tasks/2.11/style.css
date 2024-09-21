@@ -1,0 +1,27 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    padding: 8px;
+}
+
+.wrapper
+{
+    background-color: aqua;
+    box-sizing: border-box;
+    border: green 1px solid;
+}
+.wrapper img
+{
+    float: right;
+}
+.wrapper::after
+{
+    content: "";
+    clear: both;
+    display: block;
+}

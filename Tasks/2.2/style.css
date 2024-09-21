@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    padding: 10px 0 0 10px;
+    background-color: #EAEAEA;
+    height: 80px;
+}
+header p
+{
+    font-weight: 600;
+    font-size: 29px;
+    word-spacing: 0px;
+}
+
+main
+{
+    line-height: 22px;
+}
+main h3
+{
+    display: inline;
+}
+section span
+{
+    color: red;
+    font-style: italic;
+}
+
+footer
+{
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    clear: both;
+}
+footer a
+{
+    line-height: 40px;
+    color: #FFFF80;
+}
+
+.leftColumn
+{
+    width: 25%;
+    background-color: #C8FC98;
+    float: left;
+    margin-right: 10px;
+}
+.rightColumn
+{
+    float: right;
+    width: 200px;
+    background-color: #FDE95E;
+    padding: 0 10px 10px 10px;
+}
+.contentColumn
+{
+    margin-right: 210px;
+}

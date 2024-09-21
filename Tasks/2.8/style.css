@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    background-color: bisque;
+    padding: 16px 0 16px 40px;
+}
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    background-color: limegreen;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main
+{
+    padding: 8px;
+}
+
+#wrapper
+{
+    background-color: aqua;
+}
+
+.content
+{
+    background-color: darkgray;
+    margin-left: 200px;
+}

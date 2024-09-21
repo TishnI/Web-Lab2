@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 8px;
+}
+
+#wrapper
+{
+    background-color: aqua;
+    border: 1px green solid;
+}
+
+#wrapper nav
+{
+    float: left;
+    background-color: bisque;
+    width: 476px;
+    padding: 16px 0 16px 40px;
+    margin-right: 5px;
+}
+#wrapper nav a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.content
+{
+    margin-left: 480px;
+    margin-right: 7px;
+    background-color: darkgray;
+}
+
+@media(max-width: 1000px)
+{
+    #wrapper nav
+    {
+        width: 125px;
+    }
+    .content
+    {
+        margin: 0;
+        display: block;
+        clear: both;
+        max-width: 500px;
+    }
+}
